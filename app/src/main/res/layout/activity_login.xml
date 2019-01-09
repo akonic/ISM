@@ -8,18 +8,18 @@
     tools:context=".login">
 
     <EditText
-        android:id="@+id/editTextUsename"
+        android:id="@+id/etpass"
         android:layout_width="wrap_content"
-        android:layout_height="48dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
         android:layout_marginLeft="88dp"
-        android:layout_marginTop="220dp"
-        android:drawableLeft="@drawable/user"
+        android:layout_marginTop="12dp"
+        android:drawableLeft="@drawable/lock"
         android:ems="10"
-        android:hint="USERNAME"
+        android:hint="PASSWORD"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
 
     <EditText
         android:id="@+id/editTextEmail"

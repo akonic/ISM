@@ -18,7 +18,19 @@
         </activity>
         <activity android:name=".login" />
         <activity android:name=".home" />
-        <activity android:name=".signup"></activity>
+        <activity android:name=".signup" />
+        <activity android:name=".md" />
+        <activity android:name=".ecell" />
+        <activity android:name=".mi" />
+        <activity android:name=".litc" />
+        <activity android:name=".litm" />
+        <activity android:name=".manthan" />
+        <activity android:name=".ffi" />
+        <activity android:name=".cyber" />
+        <activity android:name=".robo" />
+        <activity android:name=".adc" />
+        <activity android:name=".foto" />
+        <activity android:name=".cs"></activity>
     </application>
 
 </manifest>

@@ -50,7 +50,7 @@ public class signup extends AppCompatActivity implements View.OnClickListener{
             editTextPassword.requestFocus();
             return;
             }
-            mAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListner(new OnCompleteListener<AuthResult>()){
+            mAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListner(new OnCompleteListener<AutheResult>()){
             @Override
                     public void onComplete(Task<AuthResult> task){
                 if(task.issuccessful()){
