@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class signup extends AppCompatActivity implements View.OnClickListener{
     EditText editTextEmail,editTextPassword;
@@ -23,7 +24,7 @@ public class signup extends AppCompatActivity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
         editTextEmail=findViewById(R.id.editTextEmail);
-        editTextPassword=findViewById(R.id.editTextPassword);
+        editTextPassword=findViewById(R.id.etpass);
         mAuth = FirebaseAuth.getInstance();
         findViewById(R.id.buttonSignUp).setOnClickListener(this);
 
